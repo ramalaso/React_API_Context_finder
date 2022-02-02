@@ -9,7 +9,6 @@ function UserSearch() {
 	const { setAlert } = useContext(AlertContext);
 
 	const handleSubmit = (e) => {
-		console.log(text);
 		e.preventDefault();
 
 		if (text === '' || typeof text === 'undefined') {
